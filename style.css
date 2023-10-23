@@ -225,3 +225,23 @@ section {
     font-size: 40px;
     color: #f2448cbb;
 }
+
+@media screen and (max-width: 800px) {
+    .left, .main, .right {
+      width: 100%; 
+    }
+
+    @media screen and (max-width: 768px) {
+        .container {
+            grid-template-columns: 1fr;
+        }
+    
+    }
+    
+    @media screen and (max-width: 480px) { 
+        .item {
+            flex: 1 0 100%; 
+        }
+    
+    }
+}

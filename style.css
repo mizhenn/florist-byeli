@@ -1,0 +1,227 @@
+/*Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Pacifico&family=Playfair+Display:wght@600&family=Playfair:opsz,wght@5..1200,600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+a{
+    text-decoration: none;
+}
+h1, h2 {
+    font-family: 'Clicker Script', cursive;
+}
+
+.main {
+    background: #f2448c94;
+    width: 100%;
+    padding-bottom: 180px;
+    margin: 1px;
+}
+
+.about {
+    color: #FFFFFF;
+}
+/* Navbar */
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100px;
+    justify-content: space-between;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+}
+
+header {
+    width: 100vw;
+    height: 60vh; 
+    background-image: url('./image/FLOWERS.jpg');
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-content {
+    margin-bottom: 150px;
+    color:rgb(255, 255, 255);
+    text-align: center;
+}
+
+.header-content h2 {
+    font-size: 4vmin;
+}
+
+.header-content {
+    margin-bottom: 50px; 
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background: rgba(255, 255, 255, 0);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.7px);
+    -webkit-backdrop-filter: blur(4.7px);
+    border: 1px solid rgba(255, 255, 255, 0.21);
+    height: 350px; 
+    width: 80%; 
+    margin-top: 50px; 
+}
+
+.line{
+    width: 100px;
+    height: 5px;
+    background: #f2448cbb;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+.header-content {
+    font-size: 1.9vmin;
+    margin-top: 400px;
+    margin-bottom: 350px;
+}
+/* dont need button right now since its only a one page website 
+.ctn {
+    background: #f2448cbb;
+    border-radius: 30px;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    position: absolute;
+    top: 80%; 
+    left: 90%;
+    transform: translate(-50%, -50%);
+    
+} */
+
+/*How it works section*/
+section {
+    width: 80%;
+    margin: 77px auto;
+}
+
+.about {
+    text-align: center;
+}
+.title {
+    text-align: center;
+    font-size: 2vmin;
+    color: #ffffffbb;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    background:#f2448cbb ;
+    
+}
+.row .col {
+    width: 80%;
+}
+
+.col{
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    box-sizing: border-box;
+    color:#ffffffbb; 
+    
+    
+}
+
+/* Divider */
+.custom-shape-divider-bottom-1697414325 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+    margin: 0;
+}
+
+.custom-shape-divider-bottom-1697414325 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 70px;
+     margin: 0;
+}
+
+.custom-shape-divider-bottom-1697414325 .shape-fill {
+    fill: #FFFFFF;
+}
+
+
+@media only screen and (max-width:850pc){
+    .logo {
+        position: absolute;
+        top: 30px;
+        left: 30px;
+    }
+}
+
+/*About-information*/
+
+.about-text{
+    color:#f2448cbb;
+}
+/*Gallery */
+
+  img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+
+  }
+
+  .container {
+    background-color: white;
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+    box-shadow: 0px 0px 150px 1px #f2448cbb;
+    padding: 30px 20px;
+    border-radius: 20px;
+  }
+
+
+  .gallery {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    margin-top: 50px;
+    grid-gap: 20px;
+  }
+
+  .item:hover {
+    box-shadow: 0px 0px 20px 3px #00000042;
+  }
+  .item:nth-last-child(1) {
+    margin-bottom: 0;
+  }
+
+  /*Footer */
+
+ 
+.social-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.social-icons a {
+    margin: 0 10px;
+    font-size: 40px;
+    color: #f2448cbb;
+}
